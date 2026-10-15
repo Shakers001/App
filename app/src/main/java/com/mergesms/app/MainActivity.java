@@ -157,7 +157,9 @@ public class MainActivity extends Activity {
         messageInput.setHint("Type your personalized message");
         messageInput.setTextSize(16);
         messageInput.setPadding(14, 12, 14, 12);
-        messageInput.setBackground(bg(Color.WHITE, 14));\n        messageInput.setTextColor(Color.rgb(30, 45, 35));\n        messageInput.setHintTextColor(Color.rgb(130, 150, 137));
+        messageInput.setBackground(bg(Color.WHITE, 14));
+        messageInput.setTextColor(Color.rgb(30, 45, 35));
+        messageInput.setHintTextColor(Color.rgb(130, 150, 137));
         root.addView(messageInput, lp(-1, -2));
         addGap(root, 5);
         TextView limit = text("Maximum 500 characters per message.", 12, Color.DKGRAY, false);
